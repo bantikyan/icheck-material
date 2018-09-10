@@ -7,8 +7,6 @@
 
 icheck-material is pure css solution for displaying material style checkboxes and radio buttons. Try [Demo](https://bantikyan.github.io/icheck-material/).
 
-You may also like to try [icheck-bootstrap](https://github.com/bantikyan/icheck-bootstrap).
-
 ## Table of contents
 
 * <a href="#user-content-getting-started">Getting started</a>
