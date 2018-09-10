@@ -3,9 +3,9 @@
 <a href="#" target="_blank"><img src="https://img.shields.io/badge/bower-v1.0.0-blue.svg" alt="bower version"></a>
 <a href="https://www.npmjs.com/package/icheck-material" target="_blank"><img src="https://img.shields.io/badge/npm-v1.0.0-blue.svg" alt="npm version"></a>
 <a href="https://www.nuget.org/packages/icheck-material" target="_blank"><img src="https://img.shields.io/badge/nuget-v1.0.0-blue.svg" alt="nuget version"></a>
-[![](https://data.jsdelivr.com/v1/package/npm/icheck-material/badge)](https://www.jsdelivr.com/package/npm/icheck-material)
+<!--[![](https://data.jsdelivr.com/v1/package/npm/icheck-material/badge)](https://www.jsdelivr.com/package/npm/icheck-material)-->
 
-Did you had a problem customizing html checkboxes and radio buttons? icheck-bootstrap is pure css solution for displaying twitter bootstrap style checkboxes and radio buttons. Try [Demo](https://bantikyan.github.io/icheck-material/).
+icheck-material is pure css solution for displaying material style checkboxes and radio buttons. Try [Demo](https://bantikyan.github.io/icheck-material/).
 
 You may also like to try [icheck-bootstrap](https://github.com/bantikyan/icheck-bootstrap).
 
@@ -14,18 +14,18 @@ You may also like to try [icheck-bootstrap](https://github.com/bantikyan/icheck-
 * <a href="#user-content-getting-started">Getting started</a>
 * <a href="#user-content-html-syntax">HTML syntax</a>
 * <a href="#user-content-aspnet-mvc-syntax">ASP.NET MVC syntax</a>
-* <a href="#user-content-color-schemes">Color schemes</a>
+* <a href="#user-content-color-schemes">Color palette</a>
 * <a href="#user-content-license">License</a>
 
 ## Getting started
 
 Several quick start options are available:
 
-* [Download the latest release](https://github.com//bantikyan/icheck-bootstrap/archive/3.0.1.zip)
-* Install with [Bower](https://bower.io): <code>bower install icheck-bootstrap</code>
-* Install with [npm](https://www.npmjs.com/package/icheck-bootstrap): <code>npm install icheck-bootstrap</code>
-* Install with [Nuget](https://www.nuget.org/packages/icheck-bootstrap/): <code>Install-Package icheck-bootstrap</code>
-* Use CDN [jsDelivr](https://www.jsdelivr.com/package/npm/icheck-bootstrap)
+* [Download the latest release](https://github.com//bantikyan/icheck-material/archive/1.0.0.zip)
+* Install with [Bower](https://bower.io): <code>bower install icheck-material</code>
+* Install with [npm](https://www.npmjs.com/package/icheck-material): <code>npm install icheck-material</code>
+* Install with [Nuget](https://www.nuget.org/packages/icheck-material/): <code>Install-Package icheck-material</code>
+<!--* Use CDN [jsDelivr](https://www.jsdelivr.com/package/npm/icheck-material)-->
 
 ## HTML syntax
 
@@ -105,9 +105,9 @@ To have components without label, you still have to have label control with empt
 </div>
 ```
 
-## Color schemes
+## Color palette
 
-Try [Demo](https://bantikyan.github.io/icheck-bootstrap/)
+Try [Demo](https://bantikyan.github.io/icheck-material/)
 
 <b>Twitter Bootstrap:</b> As you can see in previous examples, icheck-primary class used for styling.
 You can use following classes for Twitter Bootstrap color scheme:
@@ -144,4 +144,4 @@ You can use following classes for Twitter Bootstrap color scheme:
 
 ## License
 
-icheck-bootstrap released under the [MIT license](https://github.com/bantikyan/icheck-bootstrap/blob/master/LICENSE). Feel free to use it in personal and commercial projects.
+icheck-material released under the [MIT license](https://github.com/bantikyan/icheck-material/blob/master/LICENSE). Feel free to use it in personal and commercial projects.
