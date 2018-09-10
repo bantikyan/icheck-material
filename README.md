@@ -27,6 +27,8 @@ Several quick start options are available:
 * Install with [Nuget](https://www.nuget.org/packages/icheck-material/): <code>Install-Package icheck-material</code>
 <!--* Use CDN [jsDelivr](https://www.jsdelivr.com/package/npm/icheck-material)-->
 
+Then link <code>icheck-material.css</code> file inside <code>head</code> tag of your page.
+
 ## HTML syntax
 
 #### checkbox example
