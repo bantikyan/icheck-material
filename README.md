@@ -32,7 +32,7 @@ Several quick start options are available:
 #### checkbox example
 
 ```
-<div class="icheck-primary">
+<div class="icheck-material-teal">
     <input type="checkbox" id="someCheckboxId" />
     <label for="someCheckboxId">Click to check</label>
 </div>
@@ -41,11 +41,11 @@ Several quick start options are available:
 #### radio buttons example
 
 ```
-<div class="icheck-primary">
+<div class="icheck-material-teal">
     <input type="radio" id="someRadioId1" name="someGroupName" />
     <label for="someRadioId1">Option 1</label>
 </div>
-<div class="icheck-primary">
+<div class="icheck-material-teal">
     <input type="radio" id="someRadioId2" name="someGroupName" />
     <label for="someRadioId2">Option 2</label>
 </div>
@@ -56,11 +56,11 @@ Several quick start options are available:
 To have checkboxes or radio buttons inline use .icheck-inline class
 
 ```
-<div class="icheck-primary icheck-inline">
+<div class="icheck-material-teal icheck-inline">
     <input type="checkbox" id="chb1" />
     <label for="chb1">Label 1</label>
 </div>
-<div class="icheck-primary icheck-inline">
+<div class="icheck-material-teal icheck-inline">
     <input type="checkbox" id="chb2" />
     <label for="chb2">Label 2</label>
 </div>
@@ -75,7 +75,7 @@ Use disabled attribute on your input (checkbox or radio) to have disabled style.
 To have components without label, you still have to have label control with empty text.
 
 ```
-<div class="icheck-primary">
+<div class="icheck-material-teal">
     <input type="checkbox" id="someCheckboxId" />
     <label for="someCheckboxId"></label>
 </div>
@@ -86,7 +86,7 @@ To have components without label, you still have to have label control with empt
 #### checkbox example
 
 ```
-<div class="icheck-primary">
+<div class="icheck-material-teal">
     @Html.CheckBoxFor(m => m.SomeProperty, new { id = "someCheckboxId" })
     <label for="someCheckboxId">Click to check</label>
 </div>
@@ -95,11 +95,11 @@ To have components without label, you still have to have label control with empt
 #### radio buttons example
 
 ```
-<div class="icheck-primary">
+<div class="icheck-material-teal">
     @Html.RadioButtonFor(m => m.SomeProperty, SomeValue1, new { id = "someRadioId1" }) 
     <label for="someRadioId1">Option 1</label>
 </div>
-<div class="icheck-primary">
+<div class="icheck-material-teal">
     @Html.RadioButtonFor(m => m.SomeProperty, SomeValue2, new { id = "someRadioId2" })
     <label for="someRadioId2">Option 2</label>
 </div>
@@ -109,38 +109,31 @@ To have components without label, you still have to have label control with empt
 
 Try [Demo](https://bantikyan.github.io/icheck-material/)
 
-<b>Twitter Bootstrap:</b> As you can see in previous examples, icheck-primary class used for styling.
-You can use following classes for Twitter Bootstrap color scheme:
+<b>Material Design Colors:</b> As you can see in previous examples, icheck-material-teal class used for styling. [materialpalette.com](https://www.materialpalette.com/colors)
+You can use following classes for material colors:
 
-<code>.icheck-default</code><br/>
-<code>.icheck-primary</code><br/>
-<code>.icheck-success</code><br/>
-<code>.icheck-info</code><br/>
-<code>.icheck-warning</code><br/>
-<code>.icheck-danger</code>
+<code>.icheck-material-red</code><br/>
+<code>.icheck-material-pink</code><br/>
+<code>.icheck-material-purple</code><br/>
+<code>.icheck-material-deeppurple</code><br/>
+<code>.icheck-material-indigo</code><br/>
+<code>.icheck-material-blue</code><br/>
+<code>.icheck-material-lightblue</code><br/>
+<code>.icheck-material-cyan</code><br/>
+<code>.icheck-material-teal</code><br/>
+<code>.icheck-material-green</code><br/>
+<code>.icheck-material-lightgreen</code><br/>
+<code>.icheck-material-lime</code><br/>
+<code>.icheck-material-yellow</code><br/>
+<code>.icheck-material-amber</code><br/>
+<code>.icheck-material-orange</code><br/>
+<code>.icheck-material-deeporange</code><br/>
+<code>.icheck-material-brown</code><br/>
+<code>.icheck-material-grey</code><br/>
+<code>.icheck-material-bluegrey</code><br/>
 
-<b>Flat UI Colors:</b> Also you can use one of the really nice colors from [flatuicolors.com](https://flatuicolors.com/)
+You can also have your custom color formatting by using <code>icheck-material-custom.scss</code> sass file.
 
-<code>.icheck-turquoise</code><br/>
-<code>.icheck-emerland</code><br/>
-<code>.icheck-peterriver</code><br/>
-<code>.icheck-amethyst</code><br/>
-<code>.icheck-wetasphalt</code><br/>
-<code>.icheck-greensea</code><br/>
-<code>.icheck-nephritis</code><br/>
-<code>.icheck-belizehole</code><br/>
-<code>.icheck-wisteria</code><br/>
-<code>.icheck-midnightblue</code><br/>
-<code>.icheck-sunflower</code><br/>
-<code>.icheck-carrot</code><br/>
-<code>.icheck-alizarin</code><br/>
-<code>.icheck-clouds</code><br/>
-<code>.icheck-concrete</code><br/>
-<code>.icheck-orange</code><br/>
-<code>.icheck-pumpkin</code><br/>
-<code>.icheck-pomegranate</code><br/>
-<code>.icheck-silver</code><br/>
-<code>.icheck-asbestos</code><br/>
 
 ## License
 
