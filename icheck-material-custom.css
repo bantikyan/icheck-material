@@ -115,33 +115,28 @@
     margin-left: .75rem;
     margin-top: 6px; }
 
+/*$color: #337ab7;
+
+.icheck-material-custom {
+    @include theme($color);
+}*/
 .icheck-material-custom > input:first-child {
-  background-color: #337ab7; }
+  background-color: #333; }
   .icheck-material-custom > input:first-child::-ms-check {
-    background-color: #337ab7; }
+    background-color: #333; }
   .icheck-material-custom > input:first-child:not(:checked):not(:disabled):hover + label::before,
   .icheck-material-custom > input:first-child:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before {
-    border-color: #337ab7; }
+    border-color: #adadad; }
   .icheck-material-custom > input:first-child:checked + label::before,
   .icheck-material-custom > input:first-child:checked + input[type="hidden"] + label::before {
-    background-color: #337ab7;
-    border-color: #337ab7; }
+    background-color: #e6e6e6;
+    border-color: #adadad; }
   .icheck-material-custom > input:first-child:checked + label::after,
   .icheck-material-custom > input:first-child:checked + input[type="hidden"] + label::after {
-    border-bottom-color: #fff;
-    border-right-color: #fff; }
+    border-bottom-color: #333;
+    border-right-color: #333; }
 
 .icheck-material-custom > input[type="radio"]:first-child:checked + label::after,
 .icheck-material-custom > input[type="radio"]:first-child:checked + input[type="hidden"] + label::after {
-  background-color: #337ab7; }
-
-/*$border-color: #adadad;
-$background-color: #e6e6e6;
-$checkbox-checkmark-color: #333;
-$radio-checkmark-color: #333;
-$effect-color: #333;
-
-.icheck-material-custom {
-    @include theme-advanced($border-color, $background-color, $checkbox-checkmark-color, $radio-checkmark-color, $effect-color);
-}*/
+  background-color: #333; }
 

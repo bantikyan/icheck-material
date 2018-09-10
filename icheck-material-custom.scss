@@ -2,13 +2,13 @@
 @import '_icheck-material-base.scss';
 @import '_icheck-material-theme.scss';
 
-$color: #337ab7;
+/*$color: #337ab7;
 
 .icheck-material-custom {
     @include theme($color);
-}
+}*/
 
-/*$border-color: #adadad;
+$border-color: #adadad;
 $background-color: #e6e6e6;
 $checkbox-checkmark-color: #333;
 $radio-checkmark-color: #333;
@@ -16,4 +16,4 @@ $effect-color: #333;
 
 .icheck-material-custom {
     @include theme-advanced($border-color, $background-color, $checkbox-checkmark-color, $radio-checkmark-color, $effect-color);
-}*/
+}
