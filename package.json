@@ -1,0 +1,35 @@
+{
+  "name": "icheck-material",
+  "version": "1.0.0",
+  "description": "Pure css material checkboxes and radio buttons.",
+  "main": "icheck-material.css",
+  "files": [
+    "_icheck-material-base.scss",
+    "_icheck-material-theme.scss",
+    "icheck-material.css",
+    "icheck-material.min.css",
+    "icheck-material.scss",
+    "icheck-material-custom.css",
+    "icheck-material-custom.min.css",
+    "icheck-material-custom.scss"
+  ],
+  "bugs": {
+    "url": "https://github.com/bantikyan/icheck-material/issues"
+  },
+  "homepage": "https://github.com/bantikyan/icheck-material#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bantikyan/icheck-material.git"
+  },
+  "author": {
+    "name": "Hovhannes Bantikyan"
+  },
+  "keywords": [
+    "checkbox",
+    "radio",
+    "material",
+    "pure",
+    "css"
+  ],
+  "license": "MIT"
+}

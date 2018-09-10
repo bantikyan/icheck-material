@@ -1,0 +1,85 @@
+﻿
+@import '_icheck-material-base.scss';
+@import '_icheck-material-theme.scss';
+
+$border-color: green;
+$background-color: black;
+$radio-checkmark-color: red;
+$checkbox-checkmark-color: yellow;
+$effect-color: blue;
+
+.icheck-material-red {
+    @include theme(#f44336);
+}
+
+.icheck-material-pink {
+    @include theme(#e91e63);
+}
+
+.icheck-material-purple {
+    @include theme(#9c27b0);
+}
+
+.icheck-material-deeppurple {
+    @include theme(#673ab7);
+}
+
+.icheck-material-indigo {
+    @include theme(#3f51b5);
+}
+
+.icheck-material-blue {
+    @include theme(#2196f3);
+}
+
+.icheck-material-lightblue {
+    @include theme(#03a9f4);
+}
+
+.icheck-material-cyan {
+    @include theme(#00bcd4);
+}
+
+.icheck-material-teal {
+    @include theme(#009688);
+}
+
+.icheck-material-green {
+    @include theme(#4caf50);
+}
+
+.icheck-material-lightgreen {
+    @include theme(#8bc34a);
+}
+
+.icheck-material-lime {
+    @include theme(#cddc39);
+}
+
+.icheck-material-yellow {
+    @include theme(#ffeb3b);
+}
+
+.icheck-material-amber {
+    @include theme(#ffc107);
+}
+
+.icheck-material-orange {
+    @include theme(#ff9800);
+}
+
+.icheck-material-deeporange {
+    @include theme(#ff5722);
+}
+
+.icheck-material-brown {
+    @include theme(#795548);
+}
+
+.icheck-material-grey {
+    @include theme(#9e9e9e);
+}
+
+.icheck-material-bluegrey {
+    @include theme(#607d8b);
+}

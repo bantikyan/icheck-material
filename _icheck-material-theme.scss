@@ -1,0 +1,42 @@
+﻿
+@mixin theme-advanced($border-color, $background-color, $checkbox-checkmark-color, $radio-checkmark-color, $effect-color) {
+    > input:first-child {
+        background-color: $effect-color;
+
+        &::-ms-check {
+            background-color: $effect-color;
+        }
+
+        &:not(:checked):not(:disabled):hover {
+            + label::before,
+            + input[type="hidden"] + label::before {
+                border-color: $border-color;
+            }
+        }
+
+        &:checked {
+            + label::before,
+            + input[type="hidden"] + label::before {
+                background-color: $background-color;
+                border-color: $border-color;
+            }
+
+            + label::after,
+            + input[type="hidden"] + label::after {
+                border-bottom-color: $checkbox-checkmark-color;
+                border-right-color: $checkbox-checkmark-color;
+            }
+        }
+    }
+
+    > input[type="radio"]:first-child:checked {
+        + label::after,
+        + input[type="hidden"] + label::after {
+            background-color: $radio-checkmark-color;
+        }
+    }
+}
+
+@mixin theme($color) {
+    @include theme-advanced($color, $color, #fff, $color, $color);
+}

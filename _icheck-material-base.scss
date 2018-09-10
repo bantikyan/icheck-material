@@ -1,0 +1,159 @@
+﻿/*!
+ * icheck-material v1.0.0 (https://github.com/bantikyan/icheck-material)
+ * Copyright 2018 Hovhannes Bantikyan.
+ * Licensed under MIT (https://github.com/bantikyan/icheck-material/blob/master/LICENSE)
+ */
+
+[class*="icheck-material"] {
+    min-height: 22px;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    padding-left: 0px;
+
+    > label {
+        padding-left: 29px !important;
+        min-height: 22px;
+        line-height: 22px;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        margin-bottom: 0;
+        font-weight: normal;
+        cursor: pointer;
+    }
+
+    > input:first-child {
+        position: absolute !important;
+        opacity: 0;
+        margin: 0;
+        background-color: #787878;
+        border-radius: 50%;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -ms-appearance: none;
+        display: block;
+        width: 22px;
+        height: 22px;
+        outline: none;
+        transform: scale(2);
+        -ms-transform: scale(2);
+        transition: opacity 0.3s, transform 0.3s;
+
+        &:disabled {
+            cursor: default;
+
+            + label,
+            + input[type="hidden"] + label,
+            + label::before,
+            + input[type="hidden"] + label::before {
+                pointer-events: none;
+                cursor: default;
+                filter: alpha(opacity=65);
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                opacity: .65;
+            }
+        }
+
+        + label::before,
+        + input[type="hidden"] + label::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 22px;
+            height: 22px;
+            border: 2px solid #787878;
+            border-radius: 3px;
+            margin-left: -29px;
+            box-sizing: border-box;
+        }
+
+        &:checked {
+            + label::after,
+            + input[type="hidden"] + label::after {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 7px;
+                height: 10px;
+                border: solid 2px #fff;
+                border-left: none;
+                border-top: none;
+                transform: translate(7.75px, 4.5px) rotate(45deg);
+                -ms-transform: translate(7.75px, 4.5px) rotate(45deg);
+                box-sizing: border-box;
+            }
+        }
+
+        &:not(:checked):not(:disabled):hover {
+            + label::before,
+            + input[type="hidden"] + label::before {
+                border-width: 2px;
+            }
+        }
+
+        &::-ms-check {
+            opacity: 0;
+            border-radius: 50%;
+        }
+
+        &:active {
+            transform: scale(0);
+            -ms-transform: scale(0);
+            opacity: 1;
+            transition: opacity 0s, transform 0s;
+        }
+    }
+
+    > input[type="radio"]:first-child {
+        + label::before,
+        + input[type="hidden"] + label::before {
+            border-radius: 50%;
+        }
+
+        &:checked {
+            + label::before,
+            + input[type="hidden"] + label::before {
+                background-color: transparent;
+            }
+
+            + label::after,
+            + input[type="hidden"] + label::after {
+                content: "";
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                border: none;
+                top: 6px;
+                left: 6px;
+                transform: none;
+                -ms-transform: none;
+            }
+        }
+    }
+
+    > input[type="checkbox"]:first-child {
+        &:checked {
+            + label::after,
+            + input[type="hidden"] + label::after {
+                width: 8px;
+                height: 14px;
+                transform: translate(7px, 2px) rotate(45deg);
+                -ms-transform: translate(7px, 2px) rotate(45deg);
+            }
+        }
+    }
+}
+
+.icheck-inline {
+    display: inline-block;
+
+    + .icheck-inline {
+        margin-left: .75rem;
+        margin-top: 6px;
+    }
+}

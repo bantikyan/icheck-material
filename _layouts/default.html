@@ -1,0 +1,414 @@
+﻿<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta charset="UTF-8">
+    {% seo %}
+    <meta name="propeller" content="0ea5d5b9ecb69f4e2d1c4aafab307bac">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/icheck-bootstrap@3.0.1/icheck-bootstrap.min.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119561710-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-119561710-1');
+    </script>
+</head>
+<body>
+    <section class="page-header">
+        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+        {% endif %}
+        {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+        {% endif %}
+    </section>
+    <section class="main-content">
+        <h2 id="icheck-bootstrap">Twitter Bootstrap colors</h2>
+        <div class="row">
+            <div class="col-md-2 col-sm-4 col-xs-6 demo-col">
+                <div class="icheck-primary">
+                    <input type="checkbox" checked id="primary" />
+                    <label for="primary">primary</label>
+                </div>
+                <div class="icheck-primary">
+                    <input type="radio" id="primary1" name="primary" />
+                    <label for="primary1">primary 1</label>
+                </div>
+                <div class="icheck-primary">
+                    <input type="radio" checked id="primary2" name="primary" />
+                    <label for="primary2">primary 2</label>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 demo-col">
+                <div class="icheck-default">
+                    <input type="checkbox" checked id="default" />
+                    <label for="default">default</label>
+                </div>
+                <div class="icheck-default">
+                    <input type="radio" id="default1" name="default" />
+                    <label for="default1">default 1</label>
+                </div>
+                <div class="icheck-default">
+                    <input type="radio" checked id="default2" name="default" />
+                    <label for="default2">default 2</label>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-success">
+                    <input type="checkbox" checked id="success" />
+                    <label for="success">success</label>
+                </div>
+                <div class="radio icheck-success">
+                    <input type="radio" id="success1" name="success" />
+                    <label for="success1">success 1</label>
+                </div>
+                <div class="radio icheck-success">
+                    <input type="radio" checked id="success2" name="success" />
+                    <label for="success2">success 2</label>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-info">
+                    <input type="checkbox" checked id="info" />
+                    <label for="info">info</label>
+                </div>
+                <div class="radio icheck-info">
+                    <input type="radio" id="info1" name="info" />
+                    <label for="info1">info 1</label>
+                </div>
+                <div class="radio icheck-info">
+                    <input type="radio" checked id="info2" name="info" />
+                    <label for="info2">info 2</label>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-warning">
+                    <input type="checkbox" checked id="warning" />
+                    <label for="warning">warning</label>
+                </div>
+                <div class="radio icheck-warning">
+                    <input type="radio" id="warning1" name="warning" />
+                    <label for="warning1">warning 1</label>
+                </div>
+                <div class="radio icheck-warning">
+                    <input type="radio" checked id="warning2" name="warning" />
+                    <label for="warning2">warning 2</label>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-danger">
+                    <input type="checkbox" checked id="danger" />
+                    <label for="danger">danger</label>
+                </div>
+                <div class="radio icheck-danger">
+                    <input type="radio" id="danger1" name="danger" />
+                    <label for="danger1">danger 1</label>
+                </div>
+                <div class="radio icheck-danger">
+                    <input type="radio" checked id="danger2" name="danger" />
+                    <label for="danger2">danger 2</label>
+                </div>
+            </div>
+        </div>
+        <h2 id="icheck-bootstrap">Flat UI colors</h2>
+        <div class="row">
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-turquoise">
+                    <input type="checkbox" checked id="turquoise" />
+                    <label for="turquoise">turquoise</label>
+                </div>
+                <div class="radio icheck-turquoise">
+                    <input type="radio" id="turquoise1" name="turquoise" />
+                    <label for="turquoise1">turquoise 1</label>
+                </div>
+                <div class="radio icheck-turquoise">
+                    <input type="radio" checked id="turquoise2" name="turquoise" />
+                    <label for="turquoise2">turquoise 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-emerland">
+                    <input type="checkbox" checked id="emerland" />
+                    <label for="emerland">emerland</label>
+                </div>
+                <div class="radio icheck-emerland">
+                    <input type="radio" id="emerland1" name="emerland" />
+                    <label for="emerland1">emerland 1</label>
+                </div>
+                <div class="radio icheck-emerland">
+                    <input type="radio" checked id="emerland2" name="emerland" />
+                    <label for="emerland2">emerland 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-peterriver">
+                    <input type="checkbox" checked id="peterriver" />
+                    <label for="peterriver">peterriver</label>
+                </div>
+                <div class="radio icheck-peterriver">
+                    <input type="radio" id="peterriver1" name="peterriver" />
+                    <label for="peterriver1">peterriver 1</label>
+                </div>
+                <div class="radio icheck-peterriver">
+                    <input type="radio" checked id="peterriver2" name="peterriver" />
+                    <label for="peterriver2">peterriver 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-amethyst">
+                    <input type="checkbox" checked id="amethyst" />
+                    <label for="amethyst">amethyst</label>
+                </div>
+                <div class="radio icheck-amethyst">
+                    <input type="radio" id="amethyst1" name="amethyst" />
+                    <label for="amethyst1">amethyst 1</label>
+                </div>
+                <div class="radio icheck-amethyst">
+                    <input type="radio" checked id="amethyst2" name="amethyst" />
+                    <label for="amethyst2">amethyst 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-wetasphalt">
+                    <input type="checkbox" checked id="wetasphalt" />
+                    <label for="wetasphalt">wetasphalt</label>
+                </div>
+                <div class="radio icheck-wetasphalt">
+                    <input type="radio" id="wetasphalt1" name="wetasphalt" />
+                    <label for="wetasphalt1">wetasphalt 1</label>
+                </div>
+                <div class="radio icheck-wetasphalt">
+                    <input type="radio" checked id="wetasphalt2" name="wetasphalt" />
+                    <label for="wetasphalt2">wetasphalt 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-greensea">
+                    <input type="checkbox" checked id="greensea" />
+                    <label for="greensea">greensea</label>
+                </div>
+                <div class="radio icheck-greensea">
+                    <input type="radio" id="greensea1" name="greensea" />
+                    <label for="greensea1">greensea 1</label>
+                </div>
+                <div class="radio icheck-greensea">
+                    <input type="radio" checked id="greensea2" name="greensea" />
+                    <label for="greensea2">greensea 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-nephritis">
+                    <input type="checkbox" checked id="nephritis" />
+                    <label for="nephritis">nephritis</label>
+                </div>
+                <div class="radio icheck-nephritis">
+                    <input type="radio" id="nephritis1" name="nephritis" />
+                    <label for="nephritis1">nephritis 1</label>
+                </div>
+                <div class="radio icheck-nephritis">
+                    <input type="radio" checked id="nephritis2" name="nephritis" />
+                    <label for="nephritis2">nephritis 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-belizehole">
+                    <input type="checkbox" checked id="belizehole" />
+                    <label for="belizehole">belizehole</label>
+                </div>
+                <div class="radio icheck-belizehole">
+                    <input type="radio" id="belizehole1" name="belizehole" />
+                    <label for="belizehole1">belizehole 1</label>
+                </div>
+                <div class="radio icheck-belizehole">
+                    <input type="radio" checked id="belizehole2" name="belizehole" />
+                    <label for="belizehole2">belizehole 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-wisteria">
+                    <input type="checkbox" checked id="wisteria" />
+                    <label for="wisteria">wisteria</label>
+                </div>
+                <div class="radio icheck-wisteria">
+                    <input type="radio" id="wisteria1" name="wisteria" />
+                    <label for="wisteria1">wisteria 1</label>
+                </div>
+                <div class="radio icheck-wisteria">
+                    <input type="radio" checked id="wisteria2" name="wisteria" />
+                    <label for="wisteria2">wisteria 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-midnightblue">
+                    <input type="checkbox" checked id="midnightblue" />
+                    <label for="midnightblue">midnightblue</label>
+                </div>
+                <div class="radio icheck-midnightblue">
+                    <input type="radio" id="midnightblue1" name="midnightblue" />
+                    <label for="midnightblue1">midnightblue 1</label>
+                </div>
+                <div class="radio icheck-midnightblue">
+                    <input type="radio" checked id="midnightblue2" name="midnightblue" />
+                    <label for="midnightblue2">midnightblue 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-sunflower">
+                    <input type="checkbox" checked id="sunflower" />
+                    <label for="sunflower">sunflower</label>
+                </div>
+                <div class="radio icheck-sunflower">
+                    <input type="radio" id="sunflower1" name="sunflower" />
+                    <label for="sunflower1">sunflower 1</label>
+                </div>
+                <div class="radio icheck-sunflower">
+                    <input type="radio" checked id="sunflower2" name="sunflower" />
+                    <label for="sunflower2">sunflower 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-carrot">
+                    <input type="checkbox" checked id="carrot" />
+                    <label for="carrot">carrot</label>
+                </div>
+                <div class="radio icheck-carrot">
+                    <input type="radio" id="carrot1" name="carrot" />
+                    <label for="carrot1">carrot 1</label>
+                </div>
+                <div class="radio icheck-carrot">
+                    <input type="radio" checked id="carrot2" name="carrot" />
+                    <label for="carrot2">carrot 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-alizarin">
+                    <input type="checkbox" checked id="alizarin" />
+                    <label for="alizarin">alizarin</label>
+                </div>
+                <div class="radio icheck-alizarin">
+                    <input type="radio" id="alizarin1" name="alizarin" />
+                    <label for="alizarin1">alizarin 1</label>
+                </div>
+                <div class="radio icheck-alizarin">
+                    <input type="radio" checked id="alizarin2" name="alizarin" />
+                    <label for="alizarin2">alizarin 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-clouds">
+                    <input type="checkbox" checked id="clouds" />
+                    <label for="clouds">clouds</label>
+                </div>
+                <div class="radio icheck-clouds">
+                    <input type="radio" id="clouds1" name="clouds" />
+                    <label for="clouds1">clouds 1</label>
+                </div>
+                <div class="radio icheck-clouds">
+                    <input type="radio" checked id="clouds2" name="clouds" />
+                    <label for="clouds2">clouds 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-concrete">
+                    <input type="checkbox" checked id="concrete" />
+                    <label for="concrete">concrete</label>
+                </div>
+                <div class="radio icheck-concrete">
+                    <input type="radio" id="concrete1" name="concrete" />
+                    <label for="concrete1">concrete 1</label>
+                </div>
+                <div class="radio icheck-concrete">
+                    <input type="radio" checked id="concrete2" name="concrete" />
+                    <label for="concrete2">concrete 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-orange">
+                    <input type="checkbox" checked id="orange" />
+                    <label for="orange">orange</label>
+                </div>
+                <div class="radio icheck-orange">
+                    <input type="radio" id="orange1" name="orange" />
+                    <label for="orange1">orange 1</label>
+                </div>
+                <div class="radio icheck-orange">
+                    <input type="radio" checked id="orange2" name="orange" />
+                    <label for="orange2">orange 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-pumpkin">
+                    <input type="checkbox" checked id="pumpkin" />
+                    <label for="pumpkin">pumpkin</label>
+                </div>
+                <div class="radio icheck-pumpkin">
+                    <input type="radio" id="pumpkin1" name="pumpkin" />
+                    <label for="pumpkin1">pumpkin 1</label>
+                </div>
+                <div class="radio icheck-pumpkin">
+                    <input type="radio" checked id="pumpkin2" name="pumpkin" />
+                    <label for="pumpkin2">pumpkin 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-pomegranate">
+                    <input type="checkbox" checked id="pomegranate" />
+                    <label for="pomegranate">pomegranate</label>
+                </div>
+                <div class="radio icheck-pomegranate">
+                    <input type="radio" id="pomegranate1" name="pomegranate" />
+                    <label for="pomegranate1">pomegranate 1</label>
+                </div>
+                <div class="radio icheck-pomegranate">
+                    <input type="radio" checked id="pomegranate2" name="pomegranate" />
+                    <label for="pomegranate2">pomegranate 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-silver">
+                    <input type="checkbox" checked id="silver" />
+                    <label for="silver">silver</label>
+                </div>
+                <div class="radio icheck-silver">
+                    <input type="radio" id="silver1" name="silver" />
+                    <label for="silver1">silver 1</label>
+                </div>
+                <div class="radio icheck-silver">
+                    <input type="radio" checked id="silver2" name="silver" />
+                    <label for="silver2">silver 2</label>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 demo-col">
+                <div class="checkbox icheck-asbestos">
+                    <input type="checkbox" checked id="asbestos" />
+                    <label for="asbestos">asbestos</label>
+                </div>
+                <div class="radio icheck-asbestos">
+                    <input type="radio" id="asbestos1" name="asbestos" />
+                    <label for="asbestos1">asbestos 1</label>
+                </div>
+                <div class="radio icheck-asbestos">
+                    <input type="radio" checked id="asbestos2" name="asbestos" />
+                    <label for="asbestos2">asbestos 2</label>
+                </div>
+            </div>
+        </div>
+
+        <footer class="site-footer">
+            {% if site.github.is_project_page %}
+            <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+            {% endif %}
+            <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+        </footer>
+    </section>
+</body>
+</html>
