@@ -1,8 +1,8 @@
 # icheck-material
 
-<a href="#" target="_blank"><img src="https://img.shields.io/badge/bower-v1.0.0-blue.svg" alt="bower version"></a>
-<a href="https://www.npmjs.com/package/icheck-material" target="_blank"><img src="https://img.shields.io/badge/npm-v1.0.0-blue.svg" alt="npm version"></a>
-<a href="https://www.nuget.org/packages/icheck-material" target="_blank"><img src="https://img.shields.io/badge/nuget-v1.0.0-blue.svg" alt="nuget version"></a>
+<a href="#" target="_blank"><img src="https://img.shields.io/badge/bower-v1.0.1-blue.svg" alt="bower version"></a>
+<a href="https://www.npmjs.com/package/icheck-material" target="_blank"><img src="https://img.shields.io/badge/npm-v1.0.1-blue.svg" alt="npm version"></a>
+<a href="https://www.nuget.org/packages/icheck-material" target="_blank"><img src="https://img.shields.io/badge/nuget-v1.0.1-blue.svg" alt="nuget version"></a>
 [![](https://data.jsdelivr.com/v1/package/npm/icheck-material/badge)](https://www.jsdelivr.com/package/npm/icheck-material)
 
 icheck-material is pure css solution for displaying material style checkboxes and radio buttons. Try [Demo](https://bantikyan.github.io/icheck-material/).
@@ -22,7 +22,7 @@ Love cool tech? Check out [CoolTechUnder.com](https://cooltechunder.com/)
 
 Several quick start options are available:
 
-* [Download the latest release](https://github.com//bantikyan/icheck-material/archive/1.0.0.zip)
+* [Download the latest release](https://github.com//bantikyan/icheck-material/archive/1.0.1.zip)
 * Install with [Bower](https://bower.io): <code>bower install icheck-material</code>
 * Install with [npm](https://www.npmjs.com/package/icheck-material): <code>npm install icheck-material</code>
 * Install with [Nuget](https://www.nuget.org/packages/icheck-material/): <code>Install-Package icheck-material</code>
