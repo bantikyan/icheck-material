@@ -29,6 +29,7 @@
     -webkit-appearance: none;
     -ms-appearance: none;
     display: block;
+    pointer-events: none;
     width: 22px;
     height: 22px;
     outline: none;
@@ -139,4 +140,3 @@
 .icheck-material-custom > input[type="radio"]:first-child:checked + label::after,
 .icheck-material-custom > input[type="radio"]:first-child:checked + input[type="hidden"] + label::after {
   background-color: #333; }
-

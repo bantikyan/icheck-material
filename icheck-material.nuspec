@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>icheck-material</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>icheck-material</title>
     <authors>Hovhannes Bantikyan</authors>
     <owners>bantikyan</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/bantikyan/icheck-material</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Pure css material checkboxes and radio buttons.</description>
-    <copyright>Copyright 2018</copyright>
+    <copyright>Copyright 2019</copyright>
     <tags>checkbox radio material pure css</tags>
   </metadata>
   <files>

@@ -1,7 +1,7 @@
 {
   "name": "icheck-material",
   "description": "Pure css material checkboxes and radio buttons.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "icheck-material.css",
   "keywords": [
     "checkbox",
