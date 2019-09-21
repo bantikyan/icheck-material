@@ -6,7 +6,7 @@
     <title>icheck-material</title>
     <authors>Hovhannes Bantikyan</authors>
     <owners>bantikyan</owners>
-    <licenseUrl>https://github.com/bantikyan/icheck-material/blob/master/LICENSE</licenseUrl>
+    <license type="file">LICENSE.md</license>
     <projectUrl>https://github.com/bantikyan/icheck-material</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Pure css material checkboxes and radio buttons.</description>
@@ -22,5 +22,6 @@
     <file src="icheck-material-custom.css" target="Content\Content" />
     <file src="icheck-material-custom.min.css" target="Content\Content" />
     <file src="icheck-material-custom.scss" target="Content\Content" />
+    <file src="LICENSE.md" target="" />
   </files>
 </package>

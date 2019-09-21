@@ -140,4 +140,4 @@ You can also have your custom color formatting by using <code>icheck-material-cu
 
 ## License
 
-icheck-material released under the [MIT license](https://github.com/bantikyan/icheck-material/blob/master/LICENSE). Feel free to use it in personal and commercial projects.
+icheck-material released under the [MIT license](https://github.com/bantikyan/icheck-material/blob/master/LICENSE.md). Feel free to use it in personal and commercial projects.
